@@ -18,6 +18,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Iwlan
 
+# PixelParts (HBM)
+include packages/apps/PixelParts/device.mk
+
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
