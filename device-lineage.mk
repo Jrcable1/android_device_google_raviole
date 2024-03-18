@@ -18,6 +18,9 @@ PRODUCT_COPY_FILES += \
 # Kernel
 TARGET_PREBUILT_KERNEL := device/google/raviole-kernel/Image.lz4
 
+# PixelParts (HBM)
+include packages/apps/PixelParts/device.mk
+
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
