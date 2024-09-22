@@ -37,6 +37,7 @@ $(call inherit-product-if-exists, vendor/google_devices/oriole/proprietary/devic
 $(call inherit-product-if-exists, vendor/google_devices/raviole/proprietary/oriole/device-vendor-oriole.mk)
 $(call inherit-product-if-exists, vendor/google/camera/devices/raviole/oriole/device-vendor.mk)
 $(call inherit-product-if-exists, vendor/google_devices/raviole/proprietary/WallpapersOriole.mk)
+$(call inherit-product, vendor/bcr/bcr.mk)
 
 # Use 32-bit libc variant by default
 PRODUCT_USE_SCUDO := true

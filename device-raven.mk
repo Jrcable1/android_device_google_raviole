@@ -38,6 +38,7 @@ $(call inherit-product-if-exists, vendor/google_devices/raven/proprietary/device
 $(call inherit-product-if-exists, vendor/google_devices/raviole/proprietary/raven/device-vendor-raven.mk)
 $(call inherit-product-if-exists, vendor/google/camera/devices/raviole/raven/device-vendor.mk)
 $(call inherit-product-if-exists, vendor/google_devices/raviole/proprietary/WallpapersRaven.mk)
+$(call inherit-product, vendor/bcr/bcr.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/google/raviole/raven/overlay
 
