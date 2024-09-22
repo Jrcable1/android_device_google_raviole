@@ -7,6 +7,8 @@
 # Scudo
 PRODUCT_USE_SCUDO := true
 
+DISABLE_ARTIFACT_PATH_REQUIREMENTS:= true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
