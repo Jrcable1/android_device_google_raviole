@@ -12,6 +12,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/google/raviole/aosp_raven.mk)
 $(call inherit-product, device/google/gs101/lineage_common.mk)
 
+# setup dalvik vm configs.
+$(call inherit-product, frameworks/native/build/phone-xhdpi-12288-dalvik-heap.mk)
+
 include device/google/raviole/raven/device-lineage.mk
 
 # Device identifier. This must come after all inclusions
