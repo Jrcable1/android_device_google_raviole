@@ -40,6 +40,10 @@ $(call inherit-product-if-exists, vendor/google/camera/devices/raviole/raven/dev
 $(call inherit-product-if-exists, vendor/google_devices/raviole/proprietary/WallpapersRaven.mk)
 $(call inherit-product, vendor/bcr/bcr.mk)
 
+# Use 32-bit libc variant by default
+PRODUCT_USE_SCUDO := true
+PRODUCT_USE_SCUDO_32_BIT := true
+
 DEVICE_PACKAGE_OVERLAYS += device/google/raviole/raven/overlay
 
 include device/google/raviole/audio/raven/audio-tables.mk
