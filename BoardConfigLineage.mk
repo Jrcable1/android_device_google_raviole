@@ -10,3 +10,4 @@ DEVICE_PATH := device/google/raviole
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_raviole
 
 BUILD_BROKEN_DUP_RULES := true
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
