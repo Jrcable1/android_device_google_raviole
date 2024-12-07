@@ -29,6 +29,24 @@ include device/google/gs-common/wireless_charger/wireless_charger.mk
 
 include vendor/lineage-priv/keys/keys.mk
 
+# RisingOS variables
+RISING_MAINTAINER=Jrcable2
+TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# GAPPS
+WITH_GMS := true
+
+# Ship Pixel Launcher
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
+# Ship LawnChair 
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
+# Ship Google Camera
+TARGET_PREBUILT_GOOGLE_CAMERA := true
+
 # Build necessary packages for vendor
 
 # Codec2
