@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Use 32-bit libc variant by default
+PRODUCT_USE_SCUDO := true
+PRODUCT_USE_SCUDO_32_BIT := true
+
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay-lineage
 
 # ANGLE - Almost Native Graphics Layer Engine
