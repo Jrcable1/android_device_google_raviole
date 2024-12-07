@@ -27,6 +27,8 @@ include hardware/google/pixel/powershare/device.mk
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
+include vendor/lineage-priv/keys/keys.mk
+
 # Build necessary packages for vendor
 
 # Codec2
