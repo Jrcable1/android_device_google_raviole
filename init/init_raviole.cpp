@@ -34,4 +34,6 @@ void OverrideProperty(const char* name, const char* value) {
  */
 void vendor_load_properties() {
     OverrideProperty("ro.product.first_api_level", "32");
+    OverrideProperty("ro.rising.chipset", "Google Tensor");
+    OverrideProperty("ro.rising.maintainer", "Jrcable2");
 }
