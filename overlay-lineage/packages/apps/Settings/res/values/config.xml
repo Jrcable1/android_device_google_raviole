@@ -29,4 +29,6 @@
     <bool name="config_show_connectivity_helper_d2d">true</bool>
     <bool name="config_show_reverse_charging">true</bool>
     <bool name="config_show_touch_sensitivity">true</bool>
+    
+    <string name="matrixx_maintainer">Jrcable2</string>
 </resources>
