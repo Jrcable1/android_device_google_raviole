@@ -17,7 +17,7 @@ $(call inherit-product, device/google/gs101/lineage_common.mk)
 $(call inherit-product, $(DEVICE_PATH)/$(DEVICE_CODENAME)/device-lineage.mk)
 
 # setup dalvik vm configs.
-$(call inherit-product, frameworks/native/build/phone-xhdpi-12288-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 include device/google/raviole/raven/device-lineage.mk
 
