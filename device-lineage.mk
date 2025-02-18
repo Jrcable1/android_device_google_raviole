@@ -33,6 +33,16 @@ include hardware/google/pixel/powershare/device.mk
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
+# Matrixx Flags
+MATRIXX_BUILD_TYPE := Official
+MATRIXX_MAINTAINER := Jrcable2
+TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# GAPPS
+WITH_GMS := true
+
 # Build necessary packages for vendor
 
 # Codec2
